@@ -9,3 +9,8 @@ Thanks Rocketseat for the contents.
 - Write all the things you do 
 - Make another folder with index.html/script.js
 
+# Second Trying
+
+- index.html and styles.css created
+- now you can see about the image.
+

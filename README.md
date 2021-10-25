@@ -17,3 +17,12 @@ Thanks Rocketseat for the contents.
 
 - New icons created
 - everything is beautiful, i think.
+- Additioned new images in page
+- New background 
+- additioned some social media?! (eu não sei como é redes sociais em inglês kkk)
+- next pass is: 
+1- fix the image in center
+2- align the icons
+3- public the badge
+- html and css is awesome dude.
+

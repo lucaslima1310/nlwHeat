@@ -26,3 +26,9 @@ Thanks Rocketseat for the contents.
 3- public the badge
 - html and css is awesome dude.
 
+# Quarta/Quinta tentativa
+
+- New archive to make something with javascript
+- i don't know what we've going to do, but this thing is calling me. 
+- in my mind, i understand somethings but in the same time i didn't understand anything, this is horrible :(
+- but JavaScript/Html/CSS its funny so whatever.

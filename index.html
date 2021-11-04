@@ -22,22 +22,19 @@
           <span>
             <img src="images/build.svg" alt="Selo RocketSeat" />
           </span>
-          <img
-            src="https://lorempixel.com/185/185/people/"
-            alt="Foto Pessoal"
-          />
+          <img src="/nlw-heat/images/kabe.jpg" alt="Foto Pessoal" />
         </div>
 
         <h1>Lucas Lima</h1>
-        <a href="https://twitter.com/Kabelima">
+        <a href="https://github.com/lucaslima1310" target="_blank">
           <img src="images/github 2.svg" alt="ícone do github" />
           lucaslima1310</a
         >
 
-        <p>An instructor focused on helping pople start programming for web</p>
+        <p>I'm a student learning all about programming for web.</p>
 
-        <ul>
-          <li>
+        <ul id="socialLinks">
+          <li class="youtube">
             <a
               href="https://www.youtube.com/channel/UCj9Rj3Ghj9HvCjWNpN0KaWg"
               target="_blank"
@@ -45,26 +42,45 @@
               <img src="images/youtube.svg" alt="Logo do Youtube"
             /></a>
           </li>
-          <li>
+          <li class="instagram">
             <a href="https://instagram.com/limaaa.lucas" target="_blank">
               <img src="images/instagram.svg" alt="Logo do Instagram"
             /></a>
           </li>
-          <li>
+          <li class="facebook">
             <a
               href="https://www.facebook.com/profile.php?id=100002188697717"
               target="_blank"
             >
-              <img src="images/facebook.svg" alt="Logo do Facebook"
-            /></a>
+              <img src="images/facebook.svg" alt="Logo do Facebook" />
+            </a>
           </li>
-          <li>
-            <a href="https://twitter.com/Kabelima" target="_blank"
-              ><img src="images/twitter.svg" alt="Logo do Twitter"
+          <li class="twitter">
+            <a href="https://twitter.com/Kabelima" target="_blank">
+              <img src="images/twitter.svg" alt="Logo do Twitter"
             /></a>
           </li>
         </ul>
       </div>
     </main>
+
+    <script>
+      const linksSocialMedia = {
+        github: 'lucaslima1310',
+        youtube: 'UCj9Rj3Ghj9HvCjWNpN0KaWg',
+        facebook: 'id=100002188697717',
+        instagram: 'limaaa.lucas',
+        twitter: 'Kabelima'
+      }
+
+      function changeSocialMediaLinks() {
+        for (let li of socialLinks.children) {
+          const social = li.getAttribute('class')
+
+          li.children[0].href = `https://${social}.com/${LinksSocialMedia[social]}`
+        }
+      }
+      changeSocialMediaLinks()
+    </script>
   </body>
 </html>

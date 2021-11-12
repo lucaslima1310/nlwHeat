@@ -1,7 +1,7 @@
 const LinksSocialMedia = {
   github: 'lucaslima1310',
-  youtube: 'UCj9Rj3Ghj9HvCjWNpN0KaWg',
-  facebook: 'id=100002188697717',
+  youtube: 'channel/UCj9Rj3Ghj9HvCjWNpN0KaWg',
+  facebook: 'profile.php?id=100002188697717',
   instagram: 'limaaa.lucas',
   twitter: 'Kabelima'
 }
